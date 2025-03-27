@@ -1,20 +1,19 @@
-# 📊 Análise dos Dados da RAIS via Base dos Dados
+# 📊 Microdados RAIS — Script Automatizado via Guilherme Cemin
 
-Este projeto utiliza o pacote `basedosdados` no R para acessar os microdados da RAIS (Relação Anual de Informações Sociais) diretamente do portal [basedosdados.org](https://basedosdados.org/).
-
----
-
-## 📦 Pré-requisitos
-
-- R >= 4.0.0
-- Conta no [Google Cloud Platform](https://console.cloud.google.com/)
-- Projeto criado no GCP com o BigQuery ativado
-- Chave de autenticação JSON (caso use BigQuery)
+Este projeto utiliza um script criado por Guilherme Cemin para baixar e importar microdados da RAIS diretamente do site oficial via FTP.
 
 ---
 
-## 🔧 Instalação do pacote
+## 🧰 Requisitos
+
+- R instalado (preferencialmente no Windows)
+- Internet estável
+- Permissão de leitura/escrita na pasta do projeto
+
+---
+
+## 🚀 Executando
 
 ```r
-install.packages("basedosdados")
-library(basedosdados)
+source('http://cemin.wikidot.com/local--files/raisr/rais.r')
+
