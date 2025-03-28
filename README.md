@@ -1,4 +1,4 @@
-# Projeto RAIS e Censo (1991-2015)
+# Análise Descritiva da Evolução do Emprego Formal e Informal e dos Salários no Brasil entre 1991 e 2015
 
 Este projeto realiza uma análise descritiva utilizando dados da RAIS entre 1991 e 2015, obtidos via BigQuery com o pacote `basedosdados`.
 
