@@ -1,29 +1,16 @@
-# 📊 Microdados RAIS — Script Automatizado via Guilherme Cemin
+# Projeto RAIS e Censo (1991-2015)
 
-Este projeto utiliza um script criado por Guilherme Cemin para baixar e importar microdados da RAIS diretamente do site oficial via FTP, além de disponibilizar uma amostra já tratada para facilitar a análise.
+Este projeto realiza uma análise descritiva utilizando dados da RAIS entre 1991 e 2015, obtidos via BigQuery com o pacote `basedosdados`.
 
----
+## Etapas
+1. Extração dos dados via BigQuery
+2. Análise de:
+   - Séries temporais salariais
+   - Comparação entre estados
+   - Diferenças salariais por gênero
 
-## 🧰 Requisitos
+## Como rodar
+Execute os scripts na pasta `src/` na seguinte ordem:
 
-- R instalado (preferencialmente no Windows)
-- Internet estável
-- Permissão de leitura/escrita na pasta do projeto
-- Pacotes recomendados: `readr`, `dplyr`, `ggplot2`
-
----
-
-## 📦 Dados disponíveis
-
-### 📥 Download direto (amostra)
-
-Uma amostra dos dados entre **1991 e 2015** pode ser baixada em formato `.csv` via:
-
-👉 [rais_1991_2015_amostra.csv](https://raw.githubusercontent.com/raissaalvimt/meu_projeto_rais/main/rais_1991_2015_amostra.csv)
-
-```r
-# Leitura da amostra no R
-dados <- readr::read_csv("https://raw.githubusercontent.com/raissaalvimt/meu_projeto_rais/main/rais_1991_2015_amostra.csv")
-head(dados)
-
-
+1. `01_download.R` – Baixa os dados via basedosdados
+2. `02_analysis.R` – Realiza a análise descritiva
