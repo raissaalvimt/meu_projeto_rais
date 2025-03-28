@@ -45,6 +45,7 @@ Este projeto realiza uma análise descritiva utilizando dados da RAIS entre 1991
 ##  Como executar localmente
 Execute os scripts na pasta `src/` na seguinte ordem:
 1. `01_download.R` – Baixa os dados via basedosdados
+2. `02_analysis.R` – Realiza a análise descritiva
 
 ### Pré-requisitos:
 
@@ -56,7 +57,7 @@ Execute os scripts na pasta `src/` na seguinte ordem:
   install.packages("IRkernel")
   IRkernel::installspec()
 
-2. `02_analysis.R` – Realiza a análise descritiva
+
 
 
 
