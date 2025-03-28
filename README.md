@@ -17,7 +17,21 @@ Este projeto realiza uma análise descritiva utilizando dados da RAIS entre 1991
 -  Incluir dados do Censo de 2000 e 2010 para complementar a análise
 
 ## Estrutura do Projeto
-├── data/ # Dados brutos e processados (.csv) ├── outputs/ # Saídas e gráficos gerados ├── src/ # Scripts de código e relatório │ ├── 01_download.R # Coleta da RAIS via BigQuery │ ├── 01b_download_censo.R # Coleta do Censo via BigQuery │ ├── 02_analysis.R # Análises e gráficos │ ├── 03_utils.R # Funções auxiliares │ ├── relatorio_rais_censo.Rmd # Relatório RMarkdown │ └── relatorio_rais_censo.ipynb # Notebook interativo (.ipynb) ├── rais_1991_2015_amostra.csv # Base amostral usada nas análises ├── projeto_rais.Rproj # Arquivo de projeto RStudio └── README.md
+```
+├── data/                         # Dados brutos e processados (.csv)
+├── outputs/                      # Saídas e gráficos gerados
+├── src/                          # Scripts de código e relatório
+│   ├── 01_download.R             # Coleta da RAIS via BigQuery
+│   ├── 01b_download_censo.R      # Coleta do Censo via BigQuery
+│   ├── 02_analysis.R             # Análises e gráficos
+│   ├── 03_utils.R                # Funções auxiliares
+│   ├── relatorio_rais_censo.Rmd # Relatório RMarkdown
+│   └── relatorio_rais_censo.ipynb # Notebook interativo (.ipynb)
+├── rais_1991_2015_amostra.csv    # Base amostral usada nas análises
+├── projeto_rais.Rproj            # Arquivo de projeto RStudio
+└── README.md                     # Este arquivo
+```
+
 
 ## Como rodar
 Execute os scripts na pasta `src/` na seguinte ordem:
