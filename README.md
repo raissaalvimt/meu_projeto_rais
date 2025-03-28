@@ -23,6 +23,30 @@ Este projeto realiza uma análise descritiva utilizando dados da RAIS entre 1991
 Execute os scripts na pasta `src/` na seguinte ordem:
 
 1. `01_download.R` – Baixa os dados via basedosdados
+
+
+---
+
+## Notebook interativo
+
+> Você pode visualizar o relatório completo com código e gráficos diretamente pelo GitHub aqui:
+
+👉 [`src/relatorio_rais_censo.ipynb`](./src/relatorio_rais_censo.ipynb)
+
+---
+
+##  Como executar localmente
+
+### Pré-requisitos:
+
+- R (4.0+)
+- Pacotes: `dplyr`, `ggplot2`, `rmarkdown`, `basedosdados`, `DBI`, `bigrquery`, `tidyr`
+- Python (caso use Jupyter)
+- Kernel R para Jupyter:  
+  ```r
+  install.packages("IRkernel")
+  IRkernel::installspec()
+
 2. `02_analysis.R` – Realiza a análise descritiva
 
 
