@@ -11,9 +11,11 @@ Este projeto utiliza um script criado por Guilherme Cemin para baixar e importar
 - Permissão de leitura/escrita na pasta do projeto
 
 ---
-
+## Os dados podem ser baixados diretamente via:
+```https://raw.githubusercontent.com/raissaalvimt/meu_projeto_rais/main/rais_1991_2015_amostra.csv```
 ## 🚀 Executando
 
 ```r
 source('http://cemin.wikidot.com/local--files/raisr/rais.r')
+
 
