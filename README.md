@@ -32,13 +32,6 @@ Este projeto realiza uma análise descritiva utilizando dados da RAIS entre 1991
 └── README.md                     # Este arquivo
 ```
 
-
-## Como rodar
-Execute os scripts na pasta `src/` na seguinte ordem:
-
-1. `01_download.R` – Baixa os dados via basedosdados
-
-
 ---
 
 ## Notebook interativo
@@ -50,6 +43,8 @@ Execute os scripts na pasta `src/` na seguinte ordem:
 ---
 
 ##  Como executar localmente
+Execute os scripts na pasta `src/` na seguinte ordem:
+1. `01_download.R` – Baixa os dados via basedosdados
 
 ### Pré-requisitos:
 
