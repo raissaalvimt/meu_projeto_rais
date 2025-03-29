@@ -8,7 +8,7 @@ Este projeto apresenta uma análise descritiva da evolução do emprego formal e
 -  Diferença salarial por gênero.
 
 
-## 📈 Relatório 
+## Relatório 
 
 Este repositório contém uma análise descritiva dos dados da RAIS e Censo (1991–2015), com visualizações interativas, exploração de séries temporais, comparação entre estados e diferenças salariais por gênero.
 
