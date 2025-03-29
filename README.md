@@ -34,11 +34,12 @@ Este projeto realiza uma análise descritiva utilizando dados da RAIS entre 1991
 
 ---
 
-## Notebook interativo
+
+## 📄 Relatório RAIS x Censo (Notebook Interativo)
 
 > Você pode visualizar o relatório completo com código e gráficos diretamente pelo GitHub aqui:
 
-👉 [`src/relatorio_rais_censo.ipynb`](./src/relatorio_rais_censo.ipynb)
+👉[📊 Visualizar Análise RAIS-Censo no Nbviewer](https://nbviewer.org/github/raissaalvimt/meu_projeto_rais/blob/main/src/relatorio_rais_censo.ipynb)
 
 
 ---
