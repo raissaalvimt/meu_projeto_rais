@@ -1,47 +1,28 @@
-# Análise Descritiva da Evolução do Emprego Formal e Informal e dos Salários no Brasil entre 1991 e 2015
+# 📄 Análise Descritiva: RAIS x Censo (1991–2015)
 
-Este projeto realiza uma análise descritiva utilizando dados da RAIS entre 1991 e 2015, obtidos via BigQuery com o pacote `basedosdados`.
+Este projeto apresenta uma análise descritiva da evolução do emprego formal e informal e dos salários no Brasil, com base nos dados da RAIS (1991 a 2015) e do Censo (2000 e 2010), disponibilizados via [BasedosDados.org](https://basedosdados.org/).
 
-## Etapas
-1. Extração dos dados via BigQuery
-2. Análise de:
-   - Séries temporais salariais
-   - Comparação entre estados
-   - Diferenças salariais por gênero
-  
-## Objetivos
+## Conteúdo da análise:
+- 📈 Série temporal da remuneração média.
+- 🌎 Análise transversal por estado.
+- 🧍‍♀️🧍 Diferença salarial por gênero.
 
--  Analisar variações salariais ao longo do tempo (séries temporais)
--  Comparar salários entre os estados (análise transversal)
--  Investigar desigualdades por gênero
--  Incluir dados do Censo de 2000 e 2010 para complementar a análise
+## 🔗 Visualização
+Você pode acessar o notebook completo com gráficos e conclusões neste link:
 
----
+👉 [Visualizar Análise no Nbviewer](https://nbviewer.org/github/raissaalvimt/meu_projeto_rais/blob/main/src/relatorio_rais_censo.ipynb)
 
+## 🛠️ Tecnologias utilizadas:
+- R
+- Pacotes: `basedosdados`, `dplyr`, `ggplot2`
+- BigQuery para extração dos dados públicos
 
-## 📄 Relatório RAIS x Censo (Notebook Interativo)
+## 📦 Como rodar:
+1. Instale os pacotes necessários no R.
+2. Rode `01_download.R` e `01b_download_censo.R` para obter os dados.
+3. Execute `02_analysis.R` para gerar os gráficos.
+4. Visualize o notebook em `relatorio_rais_censo.ipynb`.
 
-> Você pode visualizar o relatório completo com código e gráficos diretamente pelo GitHub aqui:
-
-👉[📊 Visualizar Análise RAIS-Censo no Nbviewer](https://nbviewer.org/github/raissaalvimt/meu_projeto_rais/blob/main/src/relatorio_rais_censo.ipynb)
-
-
----
-
-##  Como executar localmente
-Execute os scripts na pasta `src/` na seguinte ordem:
-1. `01_download.R` – Baixa os dados via basedosdados
-2. `02_analysis.R` – Realiza a análise descritiva
-
-### Pré-requisitos:
-
-- R (4.0+)
-- Pacotes: `dplyr`, `ggplot2`, `rmarkdown`, `basedosdados`, `DBI`, `bigrquery`, `tidyr`
-- Python (caso use Jupyter)
-- Kernel R para Jupyter:  
-  ```r
-  install.packages("IRkernel")
-  IRkernel::installspec()
 
 
 
