@@ -12,7 +12,7 @@ Este projeto apresenta uma análise descritiva da evolução do emprego formal e
 
 Este repositório contém uma análise descritiva dos dados da RAIS e Censo (1991–2015), com visualizações interativas, exploração de séries temporais, comparação entre estados e diferenças salariais por gênero.
 
-🔗 [ Visualizar Relatório RAIS e Censo (1991–2015)](https://nbviewer.org/github/raissaalvimt/meu_projeto_rais/blob/main/src/relatorio_rais_censo_final.ipynb)
+🔗 [ Visualizar Relatório RAIS e Censo (1991–2015)](https://nbviewer.org/github/raissaalvimt/meu_projeto_rais/blob/main/src/relatorio_rais_censo.ipynb)
 
 ## Tecnologias utilizadas:
 - R
