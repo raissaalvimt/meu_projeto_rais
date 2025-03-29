@@ -40,6 +40,7 @@ Este projeto realiza uma análise descritiva utilizando dados da RAIS entre 1991
 
 👉 [`src/relatorio_rais_censo.ipynb`](./src/relatorio_rais_censo.ipynb)
 
+
 ---
 
 ##  Como executar localmente
