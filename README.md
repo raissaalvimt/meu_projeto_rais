@@ -10,7 +10,8 @@ Este projeto apresenta uma análise descritiva da evolução do emprego formal e
 ## Visualização
 Você pode acessar o notebook completo com gráficos e conclusões neste link:
 
-👉 [Visualizar Análise no Nbviewer](https://nbviewer.org/github/raissaalvimt/meu_projeto_rais/blob/main/src/relatorio_rais_censo.ipynb)
+👉 [📊 Visualizar Relatório RAIS e Censo (1991–2015)](https://nbviewer.org/github/raissaalvimt/meu_projeto_rais/blob/main/src/relatorio_rais_censo.ipynb)
+
 
 ## Tecnologias utilizadas:
 - R
